@@ -1,38 +1,39 @@
-/* 
-    RESET
-*/
-
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Montserrat', sans-serif; 
-    }
-
-
-
-/* 
-    VARIABLES
-*/
-    :root {
-        /* Color Palette */
-        
-        --white:#FFFFFF ;
-        --black: #0A0A0A ;
-
-    }
-
-
-/* 
-    GENERAL
-*/
-
-
+@import "reset.css";
+@import "general.css";
+@import "colors.css";
 
 /* 
     HEADER
 */
 
+header {
+    padding: .625rem;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 .625rem 0 .625rem;
+}
+
+.menu ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.logo img{
+    
+    padding-right: .3125rem;
+}
 
 
 /* 
@@ -47,11 +48,6 @@
 
 
 
-/* 
-    DEBUG
-*/
-
-
 
 /* 
    !RESPONSIVE DESIGN
@@ -62,11 +58,40 @@
 
 @media screen and (min-width: 768px) {
     
+    /* HEADER */
+
+    /* MAIN */
+
+    /* FOOTER */
+    
+   
 }
 
 /* Min width 992px */
 
 @media screen and (min-width: 992px) {
     
+    /* HEADER */
+
+    .container {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        padding-top: .3125rem;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
+    /* MAIN */
+
+    /* FOOTER */
+
+    
+
 }
 

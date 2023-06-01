@@ -1,0 +1,29 @@
+
+/* 
+    GENERAL
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Containers */
+
+.container {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    padding: 0 .625rem;
+}
+
+.small_container {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0 .625rem;
+}
+
+/* Icons and Buttons */
+
+.fa-bars{
+    color: white;
+    padding-top: 0.3125rem;
+}
