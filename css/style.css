@@ -93,6 +93,7 @@ main section:nth-of-type(odd) {
     padding: .625rem;
 }
 
+
 /* Planning Section */
 
 .my_row {
@@ -402,7 +403,7 @@ footer h2 {
         padding: 0 6.25rem;
     }
 
-    .footer_top_text > h3 {
+    .footer_top_txt > h3 {
         font-size: 2.2em;
     }
     
@@ -421,6 +422,19 @@ footer h2 {
     .menu {
         display: block;
         padding-top: .3125rem;
+    }
+
+    .menu a {
+        border-bottom: .125rem solid transparent;
+        transition: all 0.3s ease-in-out;
+    }
+      
+    .menu a:hover {
+        border-bottom: .125rem solid var(--tertiary_color);
+    }
+
+    header #white_button a:hover {
+        background-color: var(--tertiary_color);
     }
 
     .hamburger {
