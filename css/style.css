@@ -298,7 +298,7 @@ footer h2 {
     content: ".";
 }
 
-.footer_bottom_text > * {
+.footer_bottom_txt > * {
     padding: 1.875rem;
 }
 
@@ -306,6 +306,9 @@ footer h2 {
     color: var(--secondary_color);
 }
 
+.footer_bottom_txt {
+    color: var(--white);
+}
 
 /* 
    !RESPONSIVE DESIGN
