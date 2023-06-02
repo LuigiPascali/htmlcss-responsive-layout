@@ -36,6 +36,15 @@ html {
     color: var(--black);
 }
 
+.quotes .fa-quote-left, .fa-quote-right {
+    vertical-align: super;
+}
+
+.img_container .fa-quote-left {
+   color: var(--secondary_color);
+   font-size: 4em;
+}
+
 header #white_button a {
     color: var(--black);
     background-color: var(--white);
@@ -51,6 +60,15 @@ main .blue_button {
     border-radius: 3.125rem;
     text-decoration: none;
     white-space: nowrap;
+}
+
+main .purple_button button {
+    color: var(--white);
+    background-color: var(--secondary_color);
+    padding: .625rem 2.1875rem;
+    border-radius: 3.125rem;
+    white-space: nowrap;
+    border: none;
 }
 
 
@@ -72,10 +90,7 @@ p {
     line-height: 1.25rem;
 }
 
-.card h4 {
-    color: var(--primary_color);
-}
 
-.my_column_txt {
-    color: var(--white);
-}
+
+
+
