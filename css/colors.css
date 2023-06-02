@@ -4,7 +4,7 @@
 :root {
     /* Color Palette */
     
-    --primary_color:#61A0AF;
+    --primary_color:#012A36;
     --secondary_color:#9593E6;
     --tertiary_color:#96C9DC;
     --detail_color:#F5D491;
@@ -25,14 +25,7 @@
     background-color: var(--tertiary_color);
 }
 
-.main_color {
-    color: var(--primary_color);
+.bg_my_column {
+    background-color: var(--white);
 }
 
-.secondary_color {
-    color: var(--secondary_color);
-}
-
-.detail_color {
-    color: var(--detail_color);
-}

@@ -30,8 +30,7 @@ header {
     text-decoration: none;
 }
 
-.logo img{
-    
+.logo img {
     padding-right: .3125rem;
 }
 
@@ -39,6 +38,89 @@ header {
 /* 
     MAIN
 */
+
+main section {
+    margin-top: .9375rem;
+}
+
+main section:nth-of-type(even) {
+    padding-bottom: 1.875rem
+}
+
+main section:nth-of-type(odd) {
+    padding-bottom: 2.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.card {
+    width: calc(100% - 1.25rem);
+    margin: .625rem .625rem;
+    border-radius: 1.25rem;
+}
+
+.card_content_left {
+    padding: .9375rem .9375rem;
+}
+
+.card_content_left > * {
+    padding-top: .625rem;
+}
+
+.card_content_left > p{
+    padding-bottom: 1.25rem;
+}
+
+.card_content_right img{
+    width: 80%;
+    display: block;
+}
+
+.card_content_right {
+    padding-left: .9375rem;
+}
+
+.card_txt > * {
+    padding: .625rem;
+}
+
+.my_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my_column {
+    width: 100%;
+    margin: .625rem;
+}
+
+.my_column .my_column_txt {
+    margin-top: 3.5rem;
+}
+
+.my_column_txt > p {
+    padding-top: 2.5rem;
+}
+
+.my_column img {
+    width: 100%;
+}
+
+.my_column_content {
+    border-radius: 3.125rem;
+    color: var(--black);
+} 
+
+.my_column_content > * {
+    padding: 1.25rem .625rem;
+}
+
+.my_column:first-child{
+    padding-top: 1.25rem;
+}
 
 
 
@@ -57,10 +139,28 @@ header {
 /* Min width 768px */
 
 @media screen and (min-width: 768px) {
-    
-    /* HEADER */
 
     /* MAIN */
+
+    .card {
+        width: calc((100% / 3) - 1.25rem);
+    }
+
+    .card:first-child {
+        width: calc(((100% / 3) *2) - 1.25rem);
+    }
+
+    .card_text p {
+        line-height: 1.875rem;
+    }
+
+    .card_content_right img {
+        width: 50%;
+    }
+
+    .column_txt > h2 {
+        font-size: 3em;
+    }
 
     /* FOOTER */
     
@@ -88,6 +188,51 @@ header {
 
 
     /* MAIN */
+
+    .card:first-child {
+        display: flex;
+    }
+
+    .card_content_right img {
+        width: 80%;
+        padding-top: 2.5rem;
+    }
+
+    .card_txt i { 
+        padding-top: 1.875rem;
+    }
+
+    .my_row {
+        align-items: flex-end;
+        justify-content: center;
+    }
+    
+    .my_column {
+        width: calc((80% / 2) - 1.25rem);
+        margin-bottom: 3.5rem;
+        margin-top: 4.5rem;
+    }
+
+    .my_column:first-child img {
+        width: 100%;
+    }
+
+    .my_column_content img {
+        width: 80%;
+    }
+
+    .my_column .my_column-txt {
+        margin-top: 5.5rem;
+    }
+
+    .my_column-txt > h2 {
+        font-size: 1.5em;
+    }
+
+    .my_column_content > * {
+        padding: .625rem .3125rem;
+    }
+
 
     /* FOOTER */
 
