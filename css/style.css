@@ -51,6 +51,8 @@ main section:nth-of-type(odd) {
     padding-bottom: 2.5rem;
 }
 
+/* Features Section */
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -91,6 +93,8 @@ main section:nth-of-type(odd) {
     padding: .625rem;
 }
 
+/* Planning Section */
+
 .my_row {
     display: flex;
     flex-wrap: wrap;
@@ -129,6 +133,8 @@ main section:nth-of-type(odd) {
 .my_column:first-child{
     padding-top: 1.25rem;
 }
+
+/* Testimonial Section */
 
 .testimonials > * { 
     padding-top: 1.25rem;
@@ -183,6 +189,8 @@ main section:nth-of-type(odd) {
     font-size: medium;
 }
 
+/* Benefits Section */
+
 .my_col_6 {
     width: 100%;
     background-color: var(--white);
@@ -206,6 +214,8 @@ main section:nth-of-type(odd) {
 .my_col_6_content > p {
     padding-bottom: 2.25rem;
 }
+
+/* About Us Section */
 
 .about_us_container {
     margin: .9375rem .9375rem;
@@ -251,13 +261,50 @@ main section:nth-of-type(odd) {
     color: var(--secondary_color);
 }
 
-
-
 /* 
     FOOTER
 */
 
+/* Get Started Section */
 
+footer h2 {
+    color: var(--detail_color);
+    font-size: 3.125rem;
+}
+
+.footer_top {
+    background-color: var(--secondary_color);
+    padding: 1.875rem;
+    color: var(--white);
+}
+
+.footer_top_txt > * {
+    padding: .9375rem;
+}
+
+.footer_links > * {
+    display: inline-block;
+    color: var(--white);
+    font-size: small;
+}
+
+/* Copyright Section */
+
+.footer_links span:before {
+    content: ".";
+}
+
+.footer-links a:before {
+    content: ".";
+}
+
+.footer_bottom_text > * {
+    padding: 1.875rem;
+}
+
+.footer_bottom_txt p > a {
+    color: var(--secondary_color);
+}
 
 
 /* 
@@ -270,6 +317,8 @@ main section:nth-of-type(odd) {
 @media screen and (min-width: 768px) {
 
     /* MAIN */
+
+    /* Features Section */
 
     .card {
         width: calc((100% / 3) - 1.25rem);
@@ -290,6 +339,8 @@ main section:nth-of-type(odd) {
     .column_txt > h2 {
         font-size: 3em;
     }
+
+    /* Testimonial Section */
 
     .testimonials h3{
         font-size: 1.8em;
@@ -312,6 +363,8 @@ main section:nth-of-type(odd) {
         width: 70%;
     }
 
+    /* Benefits Section */
+
     .title h3 {
         font-size: larger;
     }
@@ -319,6 +372,8 @@ main section:nth-of-type(odd) {
     .my_col_6 {
         width: calc((100% / 2) - 1.875rem);
     }
+
+    /* About Us Section */
 
     .about_us_container {
         display: flex;
@@ -339,8 +394,15 @@ main section:nth-of-type(odd) {
     }
 
     /* FOOTER */
+
+    footer .small_container {
+        padding: 0 6.25rem;
+    }
+
+    .footer_top_text > h3 {
+        font-size: 2.2em;
+    }
     
-   
 }
 
 /* Min width 992px */
@@ -365,6 +427,8 @@ main section:nth-of-type(odd) {
 
     /* MAIN */
 
+    /* Features Section */
+
     .card:first-child {
         display: flex;
     }
@@ -377,6 +441,8 @@ main section:nth-of-type(odd) {
     .card_txt i { 
         padding-top: 1.875rem;
     }
+
+    /* Planning Section */
 
     .my_row {
         align-items: flex-end;
@@ -413,9 +479,13 @@ main section:nth-of-type(odd) {
         font-size: 2.2em;
     }
 
+    /* Benefits Section */
+
     .my_col_6 {
         width: calc((100% / 3) - 1.875rem);
     }
+
+    /* About Us Section */
 
     .about_us {
         margin-left: 1.5625rem;
@@ -424,11 +494,6 @@ main section:nth-of-type(odd) {
     .img_about_us {
         padding-top: 3.125rem;
     }
-
-
-    /* FOOTER */
-
     
-
 }
 

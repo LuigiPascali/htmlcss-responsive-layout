@@ -5,8 +5,9 @@
     /* Color Palette */
     
     --primary_color:#012A36;
-    --secondary_color:#9593E6;
+    --secondary_color:#80A1C1;
     --tertiary_color:#96C9DC;
+    --fourth_color: #333333;
     --detail_color:#F5D491;
     --white:#FFFFFF;
     --black: #0A0A0A;
@@ -23,6 +24,10 @@
 
 .bg_tertiary_color {
     background-color: var(--tertiary_color);
+}
+
+.bg_fourth_color {
+    background-color: var(--fourth_color);
 }
 
 .bg_my_column {

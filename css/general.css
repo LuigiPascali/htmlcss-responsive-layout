@@ -71,6 +71,15 @@ main .purple_button button {
     border: none;
 }
 
+.get_started_button button {
+    color: var(--secondary_color);
+    background-color: var(--white);
+    padding: .9375rem 3.75rem;
+    border-radius: 3.125rem;
+    white-space: nowrap;
+    border: none;
+    font-size: medium;
+}
 
 .card_txt i{
     font-size: 3em;
